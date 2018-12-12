@@ -13,7 +13,7 @@ body {
   
  section{
    display: flex;
-   flex-direction: column;
+   flex-direction:column;
     margin: 5px;
     padding: 1px 10% 5px 10%;
     background-color:lightgray;
