@@ -4,7 +4,7 @@ body {
   }
   
   header, footer {
-    padding: 10px;
+    padding: 0 0 0 10%;
     color: white;
     background-color: black;
   }
@@ -12,7 +12,7 @@ body {
  section{
    
     margin: 5px;
-    padding: 10px;
+    padding: 0 0 0 10%;
     background-color:lightgray;
   }
   
