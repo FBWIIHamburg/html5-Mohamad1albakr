@@ -3,8 +3,10 @@ body {
     font-size: 0.9em;
   }
   
-  header, footer {
-    padding: 0 0 0 10%;
+  header {
+    display: flex;
+    flex-direction: row;
+    padding: 0 10% 0 10%;
     color: white;
     background-color: black;
   }
@@ -12,7 +14,7 @@ body {
  section{
    
     margin: 5px;
-    padding: 0 0 0 10%;
+    padding: 0 10% 0 10%;
     background-color:lightgray;
   }
   
@@ -23,11 +25,18 @@ body {
   }
   
   menu>ul {
+    display: flex;
+    flex-direction: row;
     padding: 0;
   }
   
   menu>ul>li {
-    display: inline;
+    display: flex;
     margin: 5px;
+  }
+  footer {
+    padding: 0 10% 0 10%;
+    color: white;
+    background-color: black;
   }
   
