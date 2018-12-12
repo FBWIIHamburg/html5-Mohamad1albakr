@@ -3,40 +3,38 @@ body {
     font-size: 0.9em;
   }
   
-  header {
+  header,footer {
     display: flex;
     flex-direction: row;
     padding: 0 10% 0 10%;
     color: white;
     background-color: black;
+    justify-content: space-between;
   }
   
  section{
    
     margin: 5px;
-    padding: 0 10% 0 10%;
+    padding: 1px 10% 5px 10%;
     background-color:lightgray;
+    height: 20%;
   }
   
   article {
     margin: 5px;
     padding: 10px;
     background-color: white;
+    height: 100px;
   }
   
-  menu>ul {
+  nav>ul {
     display: flex;
     flex-direction: row;
     padding: 0;
   }
-  
-  menu>ul>li {
+  nav>ul>li {
     display: flex;
     margin: 5px;
   }
-  footer {
-    padding: 0 10% 0 10%;
-    color: white;
-    background-color: black;
-  }
+ 
   
